@@ -135,9 +135,40 @@ class Register extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(height: 10.0),
               // Password Field
-
+              const SizedBox(height: 10.0),
+              const Text(
+                'كلمة المرور',
+                style: TextStyle(fontSize: 20.0),
+              ),
+              const SizedBox(height: 5.0),
+              TextField(
+                decoration: InputDecoration(
+                  fillColor: Colors.grey.withOpacity(0.5),
+                  filled: true,
+                  border: OutlineInputBorder(
+                    borderSide: BorderSide.none,
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 10.0),
+              const Text(
+                'تاكيد كلمة المرور',
+                style: TextStyle(fontSize: 20.0),
+              ),
+              const SizedBox(height: 5.0),
+              TextField(
+                decoration: InputDecoration(
+                  fillColor: Colors.grey.withOpacity(0.5),
+                  filled: true,
+                  border: OutlineInputBorder(
+                    borderSide: BorderSide.none,
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 10.0),
               // Register Button
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
